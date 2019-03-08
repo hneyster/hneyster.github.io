@@ -85,7 +85,7 @@ author:
   bio              : "PhD student at the Institute for Resources, Environment, & Sustainability, University of British Columbia"
   location         : "Vancouver, BC"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+ # googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -98,7 +98,7 @@ author:
   github           : "hneyster"
   google_plus      :
   keybase          :
-  instagram        : "https://www.instagram.com/eysterart/"
+  instagram        : "eysterart/"
   lastfm           :
   linkedin         :
   orcid            : #"http://orcid.org/yourorcidurl"
