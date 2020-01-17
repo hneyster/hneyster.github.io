@@ -9,6 +9,7 @@ author_profile: true
 
 Academic presentations
 ======
+* **Eyster, H.**  and Satterfield, T., and Chan, K. Synthesizing human action theories. *Student Conference on Conservation Science.*  2019 --  Cambridge,  UK 	
 * **Eyster, H.**  and Naidoo, R., Bird &  Megafauna Diversity
 	Explain Tourist Visits to African Parks. *International Ornithological Congress.*  2018 --  Vancouver,  BC 
 * **Eyster, H.** and Chan, K.  Cultivating Conservationists: Using social science models to build  conservation capacity. *North American Congress on Conservation Biology.*  2018--Toronto, ON
