@@ -1,6 +1,7 @@
 # main links links
 main:
-  #- title: "Publications"
+  - title: "Publications"
+   url: https://scholar.google.com/citations?user=KYnBYyMAAAAJ&hl=en
    # url: /publications/
 
   - title: "Talks"
@@ -15,5 +16,5 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Photos"
-    url: /photos/
+ # - title: "Photos"
+ #   url: /photos/
