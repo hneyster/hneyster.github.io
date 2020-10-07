@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Research"
+    url: /research/ 
+
   - title: "Publications"
     url: https://scholar.google.com/citations?user=KYnBYyMAAAAJ&hl=en/
    # url: /publications/
