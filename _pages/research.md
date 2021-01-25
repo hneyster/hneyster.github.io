@@ -5,6 +5,7 @@ title: "Research"
 author_profile: true
 ---
 {% include base_path %}
+My research spans the natural and social sciences to address conservation questions. See below for summaries of a sampling of my current projects. 
 
 ## Human action theories
 Why do people do what they do?  Understanding these theories of human action can help conservationists identify how to achieve a more sustainable world. However, these theories are dispersed across many different fields and are based on different meta-theories. I am **synthesizing** these theories to provide a map of the human action theories. I presented this work at the 2019 Student Conference on Conservation Science in Cambridge, UK.  Collaborators: Dr. Kai Chan, Dr. Terre Satterfield
