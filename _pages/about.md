@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am conservation scientist at the University of British Columbia. I am currently a PhD candidate supervised by [Dr. Kai Chan](https://chanslab.ires.ubc.ca/). I am planning to graduate in summer 2021, and am looking for a postdoc or research associate position in academia, NGOs, or government. If you know of any open positions, [please contact me](haroldeyster@gmail.com). 
+I am conservation scientist at the University of British Columbia. I am currently a PhD candidate supervised by [Dr. Kai Chan](https://chanslab.ires.ubc.ca/). I am planning to graduate in summer 2021, and am looking for a postdoc or research associate position in academia, NGOs, or government. If you know of any open positions, [please contact me](mailto:haroldeyster@gmail.com). 
 
 <!--- Human lifestyles are evolving. We're living in cities and relying on new technologies. We're interacting with friends and family differently, and working and playing differently. All of these changes are reshaping the relationships that we build with nature. Unfortunately, conservation efforts often fail to harness these new relationships, stifling ordinary people's conservation action. -->
 
