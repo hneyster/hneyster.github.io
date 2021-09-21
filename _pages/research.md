@@ -46,6 +46,8 @@ I am also a contributing author for the Intergovernmental Panel on Biodiversity 
 ## Invasion  ecology 
 
 What causes some plants to become invasive and others not? Are some species able to rapidly evolve to excel in a novel environment? Or are they able to flourish in a novel environment without adapting? For my  undergraduate thesis research, I collected plant seeds from their native range in Europe and invasive range in North America, grew them in a variety of climates in **growth chambers** and then  used **multilevel models** in **Stan** to understand if these seven species had rapidly evolved since invasion. Paper is currently under review. Collaborators: Dr. Elizabeth Wolkovich. 
+See our recent publication: 
+Eyster, H. N., & Wolkovich, E. M. (2021). Comparisons in the native and introduced ranges reveal little evidence of climatic adaptation in germination traits. Climate Change Ecology, 2, 100023. [https://doi.org/10.1016/j.ecochg.2021.100023](https://doi.org/10.1016/j.ecochg.2021.100023)
 
 ## Sensory ecology 
 
