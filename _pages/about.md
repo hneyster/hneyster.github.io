@@ -16,6 +16,6 @@ I investigate environmental issues through a relational lens:  at the center of 
 I bring my joy for birding, painting, Bayesian inference, and outdoor adventure into my research as much as possible, though I have yet to figure out a way of incorporating my enthusiasm for sourdough baking.
 
 
-In Summer 2021 I am completey my [PhD](https://doi.org/10.14288/1.0401270) at the University of British Columbia with [Dr. Kai Chan](https://chanslab.ires.ubc.ca/). Before coming to UBC, I received a BA from Harvard University in Environmental Science and Public Policy. 
+In Summer 2021 I completed my [PhD](https://doi.org/10.14288/1.0401270) at the University of British Columbia with [Dr. Kai Chan](https://chanslab.ires.ubc.ca/). Before coming to UBC, I received a BA from Harvard University in Environmental Science and Public Policy. 
 
 I also conduct bird color vision and sensory ecology research with [Dr. Mary Caswell Stoddard](https://www.marycstoddard.com/). See our recent publication in [*PNAS*](https://www.pnas.org/content/early/2020/06/09/1919377117) and my [twitter thread summary](https://twitter.com/HaroldEyster/status/1272627047861415936).  
