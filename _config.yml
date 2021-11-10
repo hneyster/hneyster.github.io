@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Harold Eyster"
 title_separator          : "-"
 name                     : &name "Harold Eyster"
-description              : &description "PhD candidate at the University of British Columbia"
+description              : &description "Gund Postdoctoral Fellow at the University of Vermont"
 url                      : https://hneyster.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hneyster.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Harold Eyster"
   avatar           : "profile.png"
-  bio              : "PhD student at the Institute for Resources, Environment, & Sustainability, University of British Columbia"
-  location         : "Vancouver, BC"
+  bio              : "Gund Postdoctoral Fellow at the University of Vermont "
+  location         : "Burlington, VT"
   employer         :
- # googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : https://scholar.google.com/citations?user=KYnBYyMAAAAJ&hl=en
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
