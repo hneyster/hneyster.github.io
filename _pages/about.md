@@ -19,16 +19,16 @@ I bring my joy for birding, painting, Bayesian inference, and outdoor adventure 
 
 ## News
 
-The first paper from my postdoc is now out! Brian Beckage and I show how coniferous trees may be key for ameliorating heat waves in the Pacific Northwest.  See my [twitter thread](https://twitter.com/HaroldEyster/status/1528749939647553538) for a summary. 
-> Eyster, H. N., & Beckage, B. (2022). Conifers may ameliorate urban heat waves better than broadleaf trees: evidence from Vancouver, Canada. *Atmosphere*, *13*, 830. [free link](https://doi.org/10.3390/atmos13050830)
+The first paper from my postdoc is now out! Brian Beckage and I show how coniferous trees may be key for ameliorating heat waves in the Pacific Northwest.  [Summary twitter thread](https://twitter.com/HaroldEyster/status/1528749939647553538). 
+> Eyster, H. N., & Beckage, B. (2022). Conifers may ameliorate urban heat waves better than broadleaf trees: evidence from Vancouver, Canada. *Atmosphere*, *13*, 830. [Free link](https://doi.org/10.3390/atmos13050830).
 
-The first papers are now out from my PhD! The first on using genetic information and recognition of interdependent relationships with nature to motivate the conservation of widespread species. See my [twitter thread](https://twitter.com/HaroldEyster/status/1482037800098840589)for a summary.
+The first papers are now out from my PhD! The first on using genetic information and recognition of interdependent relationships with nature to motivate the conservation of widespread species. [Summary twitter thread](https://twitter.com/HaroldEyster/status/1482037800098840589).
 
-> Eyster, H. N., Olmsted, P., Naidoo, R., & Chan, K. M. A. (2022). Motivating conservation even for widespread species using genetic uniqueness and relational values. *Biological Conservation*, *266*, 109438. <https://doi>. org/10.1016/j.biocon.2021.109438. [free link](https://authors.elsevier.com/a/1ePth1R%7EeL8ba). [Data](doi.org/10.17605/OSF.IO/CXY58)
+> Eyster, H. N., Olmsted, P., Naidoo, R., & Chan, K. M. A. (2022). Motivating conservation even for widespread species using genetic uniqueness and relational values. *Biological Conservation*, *266*, 109438. <https://doi>. org/10.1016/j.biocon.2021.109438. [Free link](https://authors.elsevier.com/a/1ePth1R%7EeL8ba). [Data](doi.org/10.17605/OSF.IO/CXY58)
 
-The second paper combines a whole bunch of biophysical metrics to show that woody perennial polyculture farms in the US enhance biodiversity and ecosystem services relative to traditional farms. [Twitter summary here](https://twitter.com/HaroldEyster/status/1480549083358105601).
+The second paper combines a whole bunch of biophysical metrics to show that woody perennial polyculture farms in the US enhance biodiversity and ecosystem services relative to traditional farms. [Summary twitter thread](https://twitter.com/HaroldEyster/status/1480549083358105601).
 
-> Kreitzman, M., Eyster, H. N., Mitchell, M., Czajewska, A., Keeley, K., Smukler, S., Sullivan, N., Verster, A., & Chan, K. M. A. (2022). Woody perennial polycultures in the U.S. Midwest enhance biodiversity and ecosystem functions. *Ecosphere*, *13*(1). [free link](https://doi.org/10.1002/ecs2.3890). [Data](https://figshare.com/collections/Midwest_Woody_Perennial_Polycultures/5645281)
+> Kreitzman, M., Eyster, H. N., Mitchell, M., Czajewska, A., Keeley, K., Smukler, S., Sullivan, N., Verster, A., & Chan, K. M. A. (2022). Woody perennial polycultures in the U.S. Midwest enhance biodiversity and ecosystem functions. *Ecosphere*, *13*(1). [Free link](https://doi.org/10.1002/ecs2.3890). [Data](https://figshare.com/collections/Midwest_Woody_Perennial_Polycultures/5645281)
 
 In Summer 2021 I completed my [PhD](https://doi.org/10.14288/1.0401270) at the University of British Columbia with [Dr. Kai Chan](https://chanslab.ires.ubc.ca/). Before coming to UBC, I received a BA from Harvard University in Environmental Science and Public Policy.
 
