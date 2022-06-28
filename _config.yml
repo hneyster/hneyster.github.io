@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Harold Eyster"
+title                    : "Dr. Harold Eyster"
 title_separator          : "-"
-name                     : &name "Harold Eyster"
-description              : &description "Gund Postdoctoral Fellow at the University of Vermont"
+name                     : &name "Dr. Harold Eyster"
+description              : &description "Gund Postdoctoral Fellow, University of Vermont"
 url                      : https://hneyster.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hneyster.github.io"
@@ -86,7 +86,7 @@ author:
   location         : "Burlington, VT"
   employer         :
   googlescholar    : https://scholar.google.com/citations?user=KYnBYyMAAAAJ&hl=en
-  email            :
+  email            : haroldeyster@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
