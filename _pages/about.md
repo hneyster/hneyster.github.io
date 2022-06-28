@@ -24,7 +24,7 @@ The first paper from my postdoc is now out! Brian Beckage and I show how conifer
 
 The first papers are now out from my PhD! The first on using genetic information and recognition of interdependent relationships with nature to motivate the conservation of widespread species. [Summary twitter thread](https://twitter.com/HaroldEyster/status/1482037800098840589).
 
-> Eyster, H. N., Olmsted, P., Naidoo, R., & Chan, K. M. A. (2022). Motivating conservation even for widespread species using genetic uniqueness and relational values. *Biological Conservation*, *266*, 109438. <https://doi>. org/10.1016/j.biocon.2021.109438. [Free link](https://authors.elsevier.com/a/1ePth1R%7EeL8ba). [Data](doi.org/10.17605/OSF.IO/CXY58)
+> Eyster, H. N., Olmsted, P., Naidoo, R., & Chan, K. M. A. (2022). Motivating conservation even for widespread species using genetic uniqueness and relational values. *Biological Conservation*, *266*, 109438. https://doi.org/10.1016/j.biocon.2021.109438. [Free link](https://doi. org/10.1016/j.biocon.2021.109438). [Data](doi.org/10.17605/OSF.IO/CXY58)
 
 The second paper combines a whole bunch of biophysical metrics to show that woody perennial polyculture farms in the US enhance biodiversity and ecosystem services relative to traditional farms. [Summary twitter thread](https://twitter.com/HaroldEyster/status/1480549083358105601).
 
