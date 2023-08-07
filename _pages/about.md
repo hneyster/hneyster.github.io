@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Gund Postdoctoral Fellow a at the University of Vermont, where I work with [Rachelle Gould](https://gouldgroup.weebly.com) and [Brian Beckage](https://brianbeckage.github.io/). <!--- If you know of any open positions, [please contact me](mailto:haroldeyster@gmail.com). -->
+I am a Gund Postdoctoral Fellow a at the University of Vermont, where I work with [Rachelle Gould](https://gouldgroup.weebly.com) and [Brian Beckage](https://brianbeckage.github.io/) and an Applied Climate Science Fellow at The Nature Conservancy Colorado. <!--- If you know of any open positions, [please contact me](mailto:haroldeyster@gmail.com). -->
 
 <!--- Human lifestyles are evolving. We're living in cities and relying on new technologies. We're interacting with friends and family differently, and working and playing differently. All of these changes are reshaping the relationships that we build with nature. Unfortunately, conservation efforts often fail to harness these new relationships, stifling ordinary people's conservation action. -->
 

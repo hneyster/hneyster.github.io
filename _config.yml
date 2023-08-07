@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dr. Harold Eyster"
 title_separator          : "-"
 name                     : &name "Dr. Harold Eyster"
-description              : &description "Gund Postdoctoral Fellow, University of Vermont"
+description              : &description "Gund Postdoctoral Fellow, University of Vermont & Applied Climate Science Fellow, The Nature Conservancy""
 url                      : https://hneyster.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hneyster.github.io"
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -83,7 +83,7 @@ author:
   name             : "Harold Eyster"
   avatar           : "profile.png"
   bio              : "Gund Postdoctoral Fellow at the University of Vermont "
-  location         : "Burlington, VT"
+  location         : "Boulder, CO & Burlington, VT"
   employer         :
   googlescholar    : https://scholar.google.com/citations?user=KYnBYyMAAAAJ&hl=en
   email            : haroldeyster@gmail.com
