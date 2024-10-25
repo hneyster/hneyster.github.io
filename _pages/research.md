@@ -64,7 +64,7 @@ I'm working with [Brian Beckage](https://brianbeckage.github.io/) to past and pr
 
 ## Implementing average predictive comparisons 
 
-As modelling frameworks become more complex, it can be difficult to isolate the effects of different variables. [Average predictive comparison](https://doi.org/10.1111/j.1467-9531.2007.00181.x) provide a method for this estimation. However, they have rarely been used because they can be complicated to implement. I am creating an implementation of average predictive comparisons in a **Bayesian** framework using **Stan** . See my explanatory document on [github](http://htmlpreview.github.io/?https://github.com/hneyster/germination_stan/blob/master/APC.html). Collaborators: Dr. Elizabeth Wolkovich and Dr. Geoffrey Legault 
+As modelling frameworks become more complex, it can be difficult to isolate the effects of different variables. [Average predictive comparison](https://doi.org/10.1111/j.1467-9531.2007.00181.x) provide a method for this estimation. However, they have rarely been used because they can be complicated to implement. I am creating an implementation of average predictive comparisons in a **Bayesian** framework using **Stan** . See my explanatory document on [github](https://htmlpreview.github.io/?https://github.com/hneyster/germination_stan/blob/master/APC.html). Collaborators: Dr. Elizabeth Wolkovich and Dr. Geoffrey Legault 
 
 
 ## Has COVID-19, and the associated lockdowns, affected people's relationships with wildlife? 
