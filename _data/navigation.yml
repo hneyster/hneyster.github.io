@@ -7,6 +7,9 @@ main:
     url: https://scholar.google.com/citations?user=KYnBYyMAAAAJ&hl=en/
    # url: /publications/
 
+  - title: "Data and Code"
+    url: /datacode/
+
 #  - title: "Talks"
  #   url: /talks/    
 
@@ -16,8 +19,8 @@ main:
   - title: "Nature illustration"
     url: https://fieldnotes.eyster.com/
     
-  - title: "CV"
-    url: /files/H_Eyster_CV.pdf
+#  - title: "CV"
+#    url: /files/H_Eyster_CV.pdf
     
  # - title: "Photos"
  #   url: /photos/
