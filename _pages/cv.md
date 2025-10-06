@@ -12,11 +12,14 @@ redirect_from:
 Education
 ======
 * B.A. Harvard University, Environmental Science and Public Policy, 2016
-* Ph.D University of British Columbia, Resources, Environment, and Sustainability (in progress)
+* Ph.D University of British Columbia, Resources, Environment, and Sustainability, 2021
 
-<!-- Work experience -->
-<!-- ====== -->
-<!-- * Summer 2015: Research Assistant -->
+Work experience
+======
+* 2021--2024, Gund Postdoctoral Associate, University of Vermont
+* 2023--2025, Applied Climate Science Fellow, The Nature Conservancy
+* 2025-- , Climate and Land-use Analyst, The Nature Conservancy
+
 <!--   * Github University -->
 <!--   * Duties included: Tagging issues -->
 <!--   * Supervisor: Professor Git -->
