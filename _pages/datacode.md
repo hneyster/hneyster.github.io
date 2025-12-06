@@ -5,7 +5,9 @@ title: "Data and Code"
 author_profile: true
 ---
 {% include base_path %}
-I believe that freely sharing data (unless they contain personal information information or violate consent agreements) and code is a necessary part of research. I hope my data and code can be useful to other researchers. 
+I believe that freely sharing data (unless they contain personal or protected information, or violate consent agreements) and code is a necessary part of research. I hope my data and code can be useful to other researchers. 
+
+Most of my code is written in R, Python, and Stan. 
 
 Most of the data and code underlying my papers can be found on the Open Science Foundation: [https://osf.io/mx9v6/](https://osf.io/mx9v6/)
 
