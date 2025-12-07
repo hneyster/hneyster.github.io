@@ -101,7 +101,7 @@ author:
   instagram        : "eysterart/"
   lastfm           :
   linkedin         : "harold-eyster/"
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-5571-3126"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -143,6 +143,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - vendor
+  
 keep_files:
   - .git
   - .svn
