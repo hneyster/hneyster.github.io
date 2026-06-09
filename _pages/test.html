@@ -1,0 +1,545 @@
+---
+layout: single
+title: "Art"
+permalink: /test/
+---
+
+{% include base_path %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Carousels with Advanced Lightbox</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+/* ===== CAROUSELS ===== */
+
+.carousel {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: zoom-in;
+}
+
+.caption {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.btn {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(0,0,0,.7);
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.btn:hover {
+    background: rgba(0,0,0,.9);
+}
+
+.prev {
+    left: -25px;
+}
+
+.next {
+    right: -25px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #bbb;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #333;
+}
+
+/* ===== LIGHTBOX ===== */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.95);
+    z-index: 2147483647;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox.show {
+    display: flex;
+}
+
+.lightbox-content {
+    text-align: center;
+    max-width: 90%;
+    position: relative;
+    z-index: 999;
+}
+
+.lightbox img {
+    max-width: 95vw;
+    max-height: 80vh;
+    border-radius: 10px;
+}
+
+.lightbox-caption {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.lightbox-counter {
+    color: #bbb;
+    margin-top: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+
+    width: 60px;
+    height: 60px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.1);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.close:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 60px;
+    height: 60px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.15);
+    color: white;
+    cursor: pointer;
+
+    font-size: 36px;
+}
+
+.lightbox-nav:hover {
+    background: rgba(255,255,255,.25);
+}
+
+.prev-lightbox {
+    left: 20px;
+}
+
+.next-lightbox {
+    right: 20px;
+}
+
+@media (max-width:768px) {
+
+    .slide img {
+        height: 280px;
+    }
+
+    .btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .lightbox-nav {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- ===================== -->
+<!-- CAROUSEL 1 -->
+<!-- ===================== -->
+   <h2>Wildlife Photography</h2>
+<div class="carousel">
+    <div class="slide active">
+        <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/658309546/1200" alt="Sandhill Crane">
+        <div class="caption">Sandhill Crane | Bosque del Apache National Wildlife Refuge, NM</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/651735671/1200" alt="Taiwan Yuhina">
+        <div class="caption">Taiwan Yuhina | Alishan, Taiwan</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/658326339/1200" alt="Cactus Wren">
+        <div class="caption">Cactus Wren | Phoenix, AZ</div>
+    </div>
+
+     <div class="slide">
+        <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/648822560/1200" alt="White-throated Kingfisher">
+        <div class="caption">White-throated Kingfisher | Goa, India</div>
+    </div>
+
+    <button class="btn prev">❮</button>
+    <button class="btn next">❯</button>
+
+    <div class="dots"></div>
+</div>
+
+<!-- ===================== -->
+<!-- CAROUSEL 2 -->
+<!-- ===================== -->
+
+<div class="carousel">
+    <div class="slide active">
+        <img src="https://picsum.photos/id/1025/1200/700" alt="Dog">
+        <div class="caption">Golden Retriever</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://picsum.photos/id/1024/1200/700" alt="Puppy">
+        <div class="caption">Playful Puppy</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://picsum.photos/id/1074/1200/700" alt="Pet">
+        <div class="caption">Family Pet</div>
+    </div>
+
+    <button class="btn prev">❮</button>
+    <button class="btn next">❯</button>
+
+    <div class="dots"></div>
+</div>
+
+<!-- ===================== -->
+<!-- CAROUSEL 3 -->
+<!-- ===================== -->
+
+<div class="carousel">
+    <div class="slide active">
+        <img src="https://picsum.photos/id/1035/1200/700" alt="Forest">
+        <div class="caption">Forest Trail</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://picsum.photos/id/1040/1200/700" alt="Trees">
+        <div class="caption">Pine Trees</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://picsum.photos/id/1041/1200/700" alt="Nature">
+        <div class="caption">Nature Walk</div>
+    </div>
+
+    <button class="btn prev">❮</button>
+    <button class="btn next">❯</button>
+
+    
+    <div class="dots"></div>
+</div>
+
+<!-- ===================== -->
+<!-- CAROUSEL 4 -->
+<!-- ===================== -->
+
+<div class="carousel">
+    <div class="slide active">
+        <img src="https://picsum.photos/id/1043/1200/700" alt="Ocean">
+        <div class="caption">Ocean View</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://picsum.photos/id/1050/1200/700" alt="Beach">
+        <div class="caption">Sunny Beach</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://picsum.photos/id/1056/1200/700" alt="Coast">
+        <div class="caption">Rocky Coastline</div>
+    </div>
+
+    <button class="btn prev">❮</button>
+    <button class="btn next">❯</button>
+
+    <div class="dots"></div>
+</div>
+
+<!-- ===================== -->
+<!-- LIGHTBOX -->
+<!-- ===================== -->
+
+<div class="lightbox" id="lightbox">
+
+    <button class="close" aria-label="Close lightbox">
+         &times;
+    </button>
+
+    <button class="lightbox-nav prev-lightbox">❮</button>
+
+    <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+        <div id="lightbox-counter" class="lightbox-counter"></div>
+    </div>
+
+    <button class="lightbox-nav next-lightbox">❯</button>
+
+</div>
+
+<script>
+/* ==========================
+   CAROUSELS
+========================== */
+
+document.querySelectorAll('.carousel').forEach(carousel => {
+
+    const slides = carousel.querySelectorAll('.slide');
+    const prevBtn = carousel.querySelector('.prev');
+    const nextBtn = carousel.querySelector('.next');
+    const dotsContainer = carousel.querySelector('.dots');
+
+    let current = 0;
+
+    slides.forEach((_, index) => {
+
+        const dot = document.createElement('span');
+        dot.classList.add('dot');
+
+        if (index === 0)
+            dot.classList.add('active');
+
+        dot.addEventListener('click', () => {
+            showSlide(index);
+        });
+
+        dotsContainer.appendChild(dot);
+    });
+
+    const dots = dotsContainer.querySelectorAll('.dot');
+
+    function showSlide(index) {
+
+        if (index >= slides.length)
+            index = 0;
+
+        if (index < 0)
+            index = slides.length - 1;
+
+        slides.forEach(slide =>
+            slide.classList.remove('active')
+        );
+
+        dots.forEach(dot =>
+            dot.classList.remove('active')
+        );
+
+        slides[index].classList.add('active');
+        dots[index].classList.add('active');
+
+        current = index;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        showSlide(current - 1);
+    });
+
+    nextBtn.addEventListener('click', () => {
+        showSlide(current + 1);
+    });
+
+    setInterval(() => {
+        showSlide(current + 1);
+    }, 5000);
+});
+
+/* ==========================
+   LIGHTBOX
+========================== */
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const lightboxCaption = document.getElementById('lightbox-caption');
+const lightboxCounter = document.getElementById('lightbox-counter');
+
+const closeBtn = document.querySelector('.close');
+const prevLightboxBtn = document.querySelector('.prev-lightbox');
+const nextLightboxBtn = document.querySelector('.next-lightbox');
+
+const galleryImages = [
+    ...document.querySelectorAll('.slide img')
+];
+
+let currentImageIndex = 0;
+
+function openLightbox(index) {
+
+    currentImageIndex = index;
+
+    const img = galleryImages[index];
+
+    const caption =
+        img.parentElement.querySelector('.caption')
+        ?.textContent || '';
+
+    lightboxImg.src = img.src;
+    lightboxCaption.textContent = caption;
+
+    lightboxCounter.textContent =
+        `${index + 1} / ${galleryImages.length}`;
+
+    lightbox.classList.add('show');
+}
+
+function showLightboxImage(index) {
+
+    if (index < 0)
+        index = galleryImages.length - 1;
+
+    if (index >= galleryImages.length)
+        index = 0;
+
+    openLightbox(index);
+}
+
+galleryImages.forEach((img, index) => {
+
+    img.addEventListener('click', () => {
+        openLightbox(index);
+    });
+
+});
+
+prevLightboxBtn.addEventListener('click', () => {
+    showLightboxImage(currentImageIndex - 1);
+});
+
+nextLightboxBtn.addEventListener('click', () => {
+    showLightboxImage(currentImageIndex + 1);
+});
+
+closeBtn.addEventListener('click', () => {
+    lightbox.classList.remove('show');
+});
+
+lightbox.addEventListener('click', (e) => {
+
+    if (e.target === lightbox) {
+        lightbox.classList.remove('show');
+    }
+
+});
+
+document.addEventListener('keydown', (e) => {
+
+    if (!lightbox.classList.contains('show'))
+        return;
+
+    if (e.key === 'ArrowLeft')
+        showLightboxImage(currentImageIndex - 1);
+
+    if (e.key === 'ArrowRight')
+        showLightboxImage(currentImageIndex + 1);
+
+    if (e.key === 'Escape')
+        lightbox.classList.remove('show');
+});
+
+/* ==========================
+   TOUCH SWIPE SUPPORT
+========================== */
+
+let touchStartX = 0;
+let touchEndX = 0;
+
+lightbox.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+});
+
+lightbox.addEventListener('touchend', (e) => {
+
+    touchEndX = e.changedTouches[0].screenX;
+
+    const distance = touchStartX - touchEndX;
+
+    if (distance > 50)
+        showLightboxImage(currentImageIndex + 1);
+
+    if (distance < -50)
+        showLightboxImage(currentImageIndex - 1);
+});
+</script>
+
+</body>
+</html>
