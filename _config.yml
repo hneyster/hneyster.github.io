@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dr. Harold Eyster"
 title_separator          : "-"
 name                     : &name "Dr. Harold Eyster"
-description              : &description "Climate and Land-use Analyst, The Nature Conservancy"
+description              : &description "Interdisciplinary conservation scientist"
 url                      : https://hneyster.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hneyster.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Harold Eyster"
   avatar           : "profile.png"
-  bio              : "Climate and Land-use Analyst, The Nature Conservancy, Colorado "
+  bio              : "Interdisciplinary conservation scientist and policy analyst"
   location         : "Boulder, CO"
   employer         :
   googlescholar    : https://scholar.google.com/citations?user=KYnBYyMAAAAJ&hl=en
